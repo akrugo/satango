@@ -3,6 +3,11 @@
   max-width: 70rem;
   margin: 0 auto;
 }
+.container-sec {
+  padding: 1rem;
+  max-width: 90rem;
+  margin: 0 auto;
+}
 hr {
   border: none;
   border-top: rgba(0, 0, 0, 0.18) 1px solid;
@@ -56,3 +61,5 @@ hr {
 .flex-columns p {
   margin: 20px 0;
 }
+
+/* gallery*/
