@@ -14,11 +14,17 @@ hr {
   margin: 4em 0;
   padding: 5px;
 }
+hr .hr-sec {
+  border: none;
+  border-top: rgba(0, 0, 0, 0.18) 1px solid;
+  margin-top: 5em 0;
+  padding: 0.313rem;
+}
 /*Flex Columns*/
 
 .flex-columns .row {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 4rem;
@@ -29,6 +35,7 @@ hr {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  flex-wrap: wrap;
 }
 .flex-columns .column .column-1,
 .flex-columns .column .column-2 {
@@ -46,20 +53,59 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .flex-columns h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 100;
 }
 
 .flex-columns h4 {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .flex-columns p {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
-/* gallery*/
+/* button*/
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #333;
+  background-color: #fff;
+  padding: 15px 0;
+  margin-top: 20px;
+  border: 1px solid #e1e1e1;
+  font-size: 1.125rem;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+/* Callback form */
+.callback-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+  margin-bottom: 15px;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 1rem;
+
+  border: #e1e1e1 1px solid;
+}
+
+.callback-form input:focus {
+  outline-color: #e1e1e1;
+}
