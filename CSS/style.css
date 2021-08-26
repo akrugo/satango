@@ -186,3 +186,23 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+/*about*/
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.about h3:first-child {
+  text-align: center;
+}
+.about p {
+  text-align: center;
+}
+.info h1 {
+  color: #7f7f7f;
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.125rem;
+  margin: 1.563rem 0;
+}

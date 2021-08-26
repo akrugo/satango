@@ -1,11 +1,14 @@
+.p-3 {
+  padding: 3rem 0;
+}
 .container {
   padding: 0 1rem;
   max-width: 70rem;
   margin: 0 auto;
 }
 .container-sec {
-  padding: 1rem;
-  max-width: 90rem;
+  padding: 0 4rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 hr {
@@ -14,11 +17,21 @@ hr {
   margin: 4em 0;
   padding: 5px;
 }
-hr .hr-sec {
+.hr-1 {
   border: none;
   border-top: rgba(0, 0, 0, 0.18) 1px solid;
-  margin-top: 5em 0;
+  height: 1px;
+  width: 100%;
+  text-align: center;
   padding: 0.313rem;
+}
+.hr-2 {
+  border: none;
+  border-top: rgba(0, 0, 0, 0.18) 1px solid;
+  height: 1px;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
 }
 /*Flex Columns*/
 
